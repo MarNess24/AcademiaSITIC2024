@@ -76,7 +76,7 @@ namespace Exercises
             public int PersonId { get; set; }
             public string Name { get; set; }
         }
-
+        
         public class Employer : Person
         {
             public DateTime StartDate { get; set; }
