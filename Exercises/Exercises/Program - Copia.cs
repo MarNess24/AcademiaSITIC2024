@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 
 namespace Exercises
 {
@@ -33,7 +33,7 @@ namespace Exercises
         }
 
         public class User
-        {*/ //------------
+        {
             /*// Forma corta
             public int IdUser { get; set; }
 
@@ -62,9 +62,9 @@ namespace Exercises
             public void SetName(string name)
             {
                 _name = name;
-            }*/ //-------
+            }*/
 
-            /*private int idUser;
+            private int idUser;
             private string _name;
             private string _password;
 
@@ -82,4 +82,4 @@ namespace Exercises
             public DateTime StartDate { get; set; }
         }
     }
-}*/
+}
