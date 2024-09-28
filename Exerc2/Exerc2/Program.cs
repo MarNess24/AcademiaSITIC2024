@@ -142,7 +142,74 @@ namespace ListLINQ
             #endregion
 
             #region Select
+            Console.WriteLine("\nSELECT - Tomar el nombre (sirve para seleccionar una propiedad en espacífico).");
+            List<string> filteredEmployeersNames = employeers.Select(employeer => employeer.Name).ToList();
+            
+            foreach (string name in filteredEmployeersNames)
+                Console.WriteLine(name);
+            #endregion
 
+            #region OrderBy & OrderByDescending
+            Console.WriteLine("\nORDER BY - Ordenamiento por nombre vs la diferencia de la lista original");
+            List<People> filteredStudents = students.OrderBy(student => student.Name).ToList();
+
+            int i = 0;
+            People originalStudent = null;
+
+            foreach (var filteredStudent in filteredStudents) {
+                originalStudent = students[i];
+                Console.WriteLine($"{filteredStudent.Name} - {originalStudent.Name}");
+                i++;
+            }
+
+            Console.WriteLine("\nORDER BY DESCENDING - Ordenamiento por edad y referenciarlo con la lista original");
+            filteredStudents = students.OrderByDescending(student => student.Age).ToList();
+
+            i = 0;
+            originalStudent = null;
+
+            foreach (var filteredStudent in filteredStudents)
+            {
+                originalStudent = students[i];
+                Console.WriteLine($"{filteredStudent.Name} - {originalStudent.Name}");
+                i++;
+            }
+            #endregion
+
+            #region GroupBy
+            Console.WriteLine("\nGROUP BY - Agrupamiento por género");
+            var groupedByGender = students.GroupBy(student => student.Gender);
+
+            foreach (var group in groupedByGender) {
+                Console.WriteLine($"Género (grupo): {group.Key}");
+
+                foreach (var person in group) {
+                    Console.WriteLine($"{person.Name}");
+                }
+            }
+
+            Console.WriteLine("\nGROUP BY - Agrupamiento por edad mostrando el nombre");
+            var groupedByAge = employeers.GroupBy(employeer => employeer.Age);
+            //int cont = 0;
+
+            foreach (var group in groupedByAge) {
+                //Console.WriteLine($"\nEdad (grupo): {group.Key}");
+                Console.WriteLine($"\nEdad (grupo): {group.Key} - Total: {group.Count()}");
+
+                foreach (var person in group) {
+                    Console.WriteLine($"{person.Name}");
+                    //cont++;
+                }
+
+                //Console.WriteLine($"Empleados de este grupo: {cont}");
+                //cont = 0;
+            }
+            #endregion
+
+            #region Any
+            Console.WriteLine($"\nANY - Verifica si hay valores o no dentro de la lista");
+            Console.WriteLine($"Existen valores en 'employeers': {employeers.Any()}");
+            Console.WriteLine($"Existen empleados mayores de 30: {employeers.Any(i => i.Age > 30)}");
             #endregion
 
             /*foreach (People employeer in employeers) {
