@@ -1,0 +1,16 @@
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.csproj.AssemblyReference.cache
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.AssemblyInfoInputs.cache
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.AssemblyInfo.cs
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.csproj.CoreCompileInputs.cache
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.exe
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.deps.json
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.runtimeconfig.json
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.runtimeconfig.dev.json
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.dll
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\ref\Exerc2.dll
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\bin\Debug\net5.0\Exerc2.pdb
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.dll
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\ref\Exerc2.dll
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.pdb
+C:\Users\Lya\OneDrive\Documentos\GitHub\AcademiaSITIC2024\Exerc2\Exerc2\obj\Debug\net5.0\Exerc2.genruntimeconfig.cache
