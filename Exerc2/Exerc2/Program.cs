@@ -90,7 +90,7 @@ namespace ListLINQ
         }
         #endregion
 
-        static void Main(string[] args)
+        static void MainL(string[] args)
         {
             List<People> employeers = new()
             {
