@@ -1,8 +1,8 @@
-let nombre = 'filtro';
-nombre = '123';
+/* let nombre = 'filtro';
+nombre = '123'; */
 
-/* const nombre = 'filtro';
-nombre = '' */
+const nombre = 'filtro';
+/* nombre = '' */
 
 let existencia: number | string = 100;
 existencia = 'LLENO';
